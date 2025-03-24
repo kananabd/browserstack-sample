@@ -41,8 +41,28 @@ Install Playwright along with its test runner:
 ```bash
 npm i -D @playwright/test
 ```
+---
+
+### Running Tests
+
+1. **Install Dependencies**:
+   ```bash
+   npm i
+   ```
+
+2. **Run Tests on Browserstack**:
+   Check the `package.json` file for details and execute:
+   ```bash
+   npm run ctest:hfwebauto:login
+   ```
+
+7. **Run Individual Tags locally**:
+   ```bash
+   npx cucumber-js --tags "@login"
+   ```
 
 ---
+
 ## Package.JSON file
 
 **The `package.json` file in a Node.js project is a critical configuration file that manages project metadata, dependencies, and scripts. Here's a detailed breakdown of its sections and how it applies to repository**
@@ -146,23 +166,3 @@ npm i -D @playwright/test
 
 ### Tag Configuration
 - Each feature folder will have a corresponding tag in the feature file matching the directory name.
-
-### Running Tests
-
-1. **Install Dependencies**:
-   ```bash
-   npm install
-   ```
-
-2. **Run Tests on Browserstack**:
-   Check the `package.json` file for details and execute:
-   ```bash
-   npm run ctest:hfwebauto:login
-   ```
-
-7. **Run Individual Tags locally**:
-   ```bash
-   npx cucumber-js --tags "@login"
-   ```
-
----

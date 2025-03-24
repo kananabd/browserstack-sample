@@ -1,0 +1,18 @@
+┌─────────────────────────────────────────────────┬───────────┬────────────────────────────────────┐
+│ Pattern / Text                                  │ Duration  │ Location                           │
+├─────────────────────────────────────────────────┼───────────┼────────────────────────────────────┤
+│ User navigates to the application               │ 1802.08ms │ tests/steps/login/login.spec.ts:8  │
+│   User navigates to the application             │ 1802.08ms │ tests/features/login.feature:5     │
+├─────────────────────────────────────────────────┼───────────┼────────────────────────────────────┤
+│ User click on the login button                  │ 137.79ms  │ tests/steps/login/login.spec.ts:29 │
+│   User click on the login button                │ 137.79ms  │ tests/features/login.feature:10    │
+├─────────────────────────────────────────────────┼───────────┼────────────────────────────────────┤
+│ User should be able to see the Home Page        │ 23.90ms   │ tests/steps/login/login.spec.ts:33 │
+│   User should be able to see the Home Page      │ 23.90ms   │ tests/features/login.feature:11    │
+├─────────────────────────────────────────────────┼───────────┼────────────────────────────────────┤
+│ User enters the username from the environment   │ 21.42ms   │ tests/steps/login/login.spec.ts:13 │
+│   User enters the username from the environment │ 21.42ms   │ tests/features/login.feature:8     │
+├─────────────────────────────────────────────────┼───────────┼────────────────────────────────────┤
+│ User enters the password from the environment   │ 7.06ms    │ tests/steps/login/login.spec.ts:21 │
+│   User enters the password from the environment │ 7.06ms    │ tests/features/login.feature:9     │
+└─────────────────────────────────────────────────┴───────────┴────────────────────────────────────┘

@@ -1,0 +1,18 @@
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: latest
+parallelsPerPlatform: 1
+browserstackLocal: true
+buildName: hf-webTests
+buildIdentifier: ${BUILD_NUMBER}
+projectName: automation-tests
+testObservability: true
+networkLogs: true
+consoleLogs: info
+framework: cucumber-js
+timezone: Sydney
+debug: true 
+screenshot: true
+video: true

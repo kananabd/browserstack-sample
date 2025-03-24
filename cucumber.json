@@ -1,0 +1,29 @@
+{
+    "default": {
+        "formatOptions": {
+            "snippetInterface": "async-await"
+        },
+        "paths": [
+            "tests/features/**/*.feature"
+        ],
+        "dryRun": false,
+        "require": [
+            "tests/steps/**/*.ts",
+            "tests/hooks/**/*.ts"
+        ],
+        "format": [
+            "summary",
+            "progress-bar",
+            "json:./cucumber-report.json",
+            ["rerun", "@rerun.txt"],
+            ["usage", "test-results/usage.txt"],
+            ["message", "test-results/messages.ndjson"],
+            ["junit", "test-results/test-report.xml"],
+            ["html", "test-results/cucumber-report.html"]
+        ],
+        "requireModule": [
+            "ts-node/register",
+            "tsconfig-paths/register"
+        ]
+    }
+}

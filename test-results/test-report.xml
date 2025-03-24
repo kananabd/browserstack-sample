@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<testsuite name="Cucumber" time="2.811" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-03-24T21:52:39.693Z">
+  <testcase classname="User Authentication Tests" name="Login should be success" time="2.803">
+    <failure type="Error" message="[2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m&#xA;&#xA;Expected substring: [32m&quot;Home&quot;[39m&#xA;Received string:    [31m&quot;Logon&quot;[39m"><![CDATA[    at Proxy.<anonymous> (/Users/abduyevkm/Desktop/Sample/node_modules/playwright/lib/matchers/expect.js:254:37)
+    at World.<anonymous> (/Users/abduyevkm/Desktop/Sample/tests/steps/login/login.spec.ts:35:42)
+    at fulfilled (/Users/abduyevkm/Desktop/Sample/tests/steps/login/login.spec.ts:5:58)]]></failure>
+    <system-out><![CDATA[Given User navigates to the application.....................................passed
+And User enters the username from the environment...........................passed
+And User enters the password from the environment...........................passed
+When User click on the login button.........................................passed
+Then User should be able to see the Home Page...............................failed]]></system-out>
+  </testcase>
+</testsuite>

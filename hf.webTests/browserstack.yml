@@ -1,3 +1,6 @@
+# Configure your Windows environment variables with your BrowserStack credentials!
+#setx BROWSERSTACK_USERNAME "{YOUR_USERNAME}"
+#setx BROWSERSTACK_ACCESS_KEY "{YOUR_ACCESS_KEY}"
 platforms:
   - os: Windows
     osVersion: 11
@@ -11,8 +14,7 @@ projectName: automation-tests
 testObservability: true
 networkLogs: true
 consoleLogs: info
-framework: cucumber-js
+framework: pytest
 timezone: Sydney
-debug: true 
-screenshot: true
-video: true
+
+# Run test from IDE Terminal --> browserstack-sdk pytest <path-to-test-files>

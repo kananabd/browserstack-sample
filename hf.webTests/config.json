@@ -1,0 +1,1 @@
+{"browser": "chrome", "headless_mode": false, "tested_page": "https://hfwebauto.humanforce.io/", "timeout": 10, "download_directory": "Downloads", "running_in_docker": false, "remote": false, "jenkins": false}

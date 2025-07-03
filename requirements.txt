@@ -158,12 +158,10 @@ urwid==2.2.2
 urwid-mitmproxy==2.1.2.1
 watchtower
 wcwidth==0.2.8
-webdriver-manager==4.0.1
-webdrivermanager==0.10.0
 Werkzeug==3.0.0
 wrapt==1.15.0
 wsproto==1.2.0
 xlrd==2.0.1
-xmlrunner==1.7.7
 zipp==3.17.0
 zstandard
+webdriver-manager
